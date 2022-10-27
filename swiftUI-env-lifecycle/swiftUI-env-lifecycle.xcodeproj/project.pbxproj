@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		47261290290B462B009FC367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726128F290B462B009FC367 /* AppDelegate.swift */; };
 		47261292290B462B009FC367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47261291290B462B009FC367 /* SceneDelegate.swift */; };
-		47261294290B462B009FC367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47261293290B462B009FC367 /* ViewController.swift */; };
+		47261294290B462B009FC367 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47261293290B462B009FC367 /* MainViewController.swift */; };
 		47261297290B462B009FC367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47261295290B462B009FC367 /* Main.storyboard */; };
 		47261299290B462B009FC367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47261298290B462B009FC367 /* Assets.xcassets */; };
 		4726129C290B462B009FC367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4726129A290B462B009FC367 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		4726128C290B462B009FC367 /* swiftUI-env-lifecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-env-lifecycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4726128F290B462B009FC367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47261291290B462B009FC367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47261293290B462B009FC367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47261293290B462B009FC367 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		47261296290B462B009FC367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47261298290B462B009FC367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4726129B290B462B009FC367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,23 @@
 		4726128E290B462B009FC367 /* swiftUI-env-lifecycle */ = {
 			isa = PBXGroup;
 			children = (
-				4726128F290B462B009FC367 /* AppDelegate.swift */,
-				47261291290B462B009FC367 /* SceneDelegate.swift */,
-				47261293290B462B009FC367 /* ViewController.swift */,
+				472612A3290B47C4009FC367 /* Supporting Files */,
+				47261293290B462B009FC367 /* MainViewController.swift */,
 				47261295290B462B009FC367 /* Main.storyboard */,
-				47261298290B462B009FC367 /* Assets.xcassets */,
-				4726129A290B462B009FC367 /* LaunchScreen.storyboard */,
-				4726129D290B462B009FC367 /* Info.plist */,
 			);
 			path = "swiftUI-env-lifecycle";
+			sourceTree = "<group>";
+		};
+		472612A3290B47C4009FC367 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47261291290B462B009FC367 /* SceneDelegate.swift */,
+				4726128F290B462B009FC367 /* AppDelegate.swift */,
+				4726129D290B462B009FC367 /* Info.plist */,
+				4726129A290B462B009FC367 /* LaunchScreen.storyboard */,
+				47261298290B462B009FC367 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47261294290B462B009FC367 /* ViewController.swift in Sources */,
+				47261294290B462B009FC367 /* MainViewController.swift in Sources */,
 				47261290290B462B009FC367 /* AppDelegate.swift in Sources */,
 				47261292290B462B009FC367 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "swiftUI-env-lifecycle/Info.plist";
+				INFOPLIST_FILE = "swiftUI-env-lifecycle/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "swiftUI-env-lifecycle/Info.plist";
+				INFOPLIST_FILE = "swiftUI-env-lifecycle/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
