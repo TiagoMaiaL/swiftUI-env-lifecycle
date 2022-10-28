@@ -10,7 +10,8 @@ import SwiftUI
 struct RootView: View {
     var body: some View {
         ZStack {
+            Color.green
             Text("Root SwiftUI view")
-        }.background(.green)
+        }
     }
 }
