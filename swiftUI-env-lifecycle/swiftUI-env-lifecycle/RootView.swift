@@ -11,7 +11,11 @@ struct RootView: View {
     var body: some View {
         ZStack {
             Color.green
-            Text("Root SwiftUI view")
+            
+            VStack {
+                Text("Root SwiftUI view")
+                LeakingView()
+            }
         }
     }
 }

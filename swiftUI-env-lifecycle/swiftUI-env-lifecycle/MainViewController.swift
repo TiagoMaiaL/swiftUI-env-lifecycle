@@ -80,8 +80,6 @@ class MainViewController: UIViewController {
         
         rootViewHostingController.removeFromParent()
         hostingView.removeFromSuperview()
-        
-        // Scenario 2: Keep holding a reference to the hosting controller.
-        //self.rootViewHostingController = nil
+        self.rootViewHostingController = nil
     }
 }
