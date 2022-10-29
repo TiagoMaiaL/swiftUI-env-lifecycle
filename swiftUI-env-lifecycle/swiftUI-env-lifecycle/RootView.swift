@@ -14,7 +14,7 @@ struct RootView: View {
             
             VStack {
                 Text("Root SwiftUI view")
-                LeakingView()
+                SubView()
             }
         }
     }
