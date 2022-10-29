@@ -26,4 +26,4 @@ Make sure to check this blog post as well. It'll guide your exploration.
 Some scenarios might require you to remove the SwiftUI views from the screen. You can do this by 
 tapping at the "Remove RootView from UI" button:
 
-<img src="" width=300px />
+<img src="exploring-env-lifecycle.png" width=300px />
