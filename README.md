@@ -17,7 +17,7 @@ Each scenario has a git tag pointing to it. To explore the scenarios, do the fol
 1. Begin by checking it out: e.g `git checkout scenario-1`
 2. Run the app in the simulator
 3. Tap the "Remove RootView from UI" button (when applicable)
-4. Build the memory graph and look for the environment instances (`EnvA` and `EnvB`)
+4. Build [the memory graph](https://developer.apple.com/documentation/xcode/gathering-information-about-memory-use#Inspect-the-debug-memory-graph) and look for the environment instances (`EnvA` and `EnvB`)
 5. When you are done, you can return to git's HEAD: `git switch -`
 
 Make sure to check this blog post as well. It'll guide your exploration.
