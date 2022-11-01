@@ -21,7 +21,7 @@ Each scenario has a git tag pointing to it. To explore the scenarios, do the fol
 5. Fix the scenario, properly releasing the environment, making sure it doesn't appear in the memory graph
 6. When you are done, you can return to git's HEAD: `git switch -`
 
-Make sure to check this blog post as well. It'll guide your experience.
+Make sure to check this [blog post](https://tiagolopes.blog/2022/11/01/when-does-a-swiftui-environment-get-retained/) as well. It'll guide your experience.
 
 ## The project UI
 
